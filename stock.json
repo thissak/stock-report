@@ -1,6 +1,6 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-03-16 18:31",
+  "updated_at": "2026-03-16 20:50",
   "market": {
     "KOSPI": {
       "index": "5549.85",
@@ -106,6 +106,16 @@
       "volume": 1107269,
       "high": 24895,
       "low": 24025
+    },
+    {
+      "code": "263750",
+      "name": "펄어비스",
+      "price": 68500,
+      "change": 2700,
+      "change_rate": "4.10",
+      "volume": 1238739,
+      "high": 71500,
+      "low": 66100
     }
   ],
   "top_gainers": [
