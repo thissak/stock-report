@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Report — Goldenlabs</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a; color: #e0e0e0;
+      max-width: 640px; margin: 0 auto; padding: 16px;
+    }
+    h1 { font-size: 20px; margin-bottom: 4px; }
+    .updated { color: #888; font-size: 13px; margin-bottom: 20px; }
+    .section { margin-bottom: 24px; }
+    .section-title {
+      font-size: 14px; color: #888; text-transform: uppercase;
+      letter-spacing: 1px; margin-bottom: 10px;
+      border-bottom: 1px solid #222; padding-bottom: 6px;
+    }
+    .market-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .market-card {
+      background: #151515; border-radius: 10px; padding: 16px;
+      border: 1px solid #222;
+    }
+    .market-name { font-size: 13px; color: #888; }
+    .market-index { font-size: 24px; font-weight: 700; margin: 4px 0; }
+    .market-change { font-size: 14px; font-weight: 600; }
+    .up { color: #ef4444; }
+    .down { color: #3b82f6; }
+    .flat { color: #888; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; color: #666; font-weight: 500; padding: 6px 8px; border-bottom: 1px solid #222; }
+    td { padding: 8px; border-bottom: 1px solid #1a1a1a; }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .portfolio-card {
+      background: #151515; border-radius: 10px; padding: 16px;
+      border: 1px solid #222; margin-bottom: 8px;
+    }
+    .portfolio-name { font-weight: 600; font-size: 15px; }
+    .portfolio-detail { color: #888; font-size: 13px; margin-top: 4px; }
+    .portfolio-pnl { font-size: 18px; font-weight: 700; margin-top: 6px; }
+    .summary-card {
+      background: linear-gradient(135deg, #1a1a2e, #151515);
+      border-radius: 10px; padding: 16px;
+      border: 1px solid #333; text-align: center;
+    }
+    .summary-total { font-size: 28px; font-weight: 700; }
+    .summary-label { font-size: 13px; color: #888; margin-top: 2px; }
+    .rank-num { color: #555; font-weight: 600; width: 24px; }
+    .vol { color: #888; font-size: 12px; }
+    .badge-foreign { color: #f59e0b; font-size: 12px; }
+    .badge-inst { color: #8b5cf6; font-size: 12px; }
+    .footer { text-align: center; color: #444; font-size: 12px; margin-top: 32px; padding: 16px; }
+    .no-data { text-align: center; color: #666; padding: 40px; }
+  </style>
+</head>
+<body>
+  <h1 id="title">Stock Report</h1>
+  <div class="updated" id="updated">Loading...</div>
+
+  <!-- Market -->
+  <div class="section">
+    <div class="section-title">Market</div>
+    <div class="market-grid" id="market"></div>
+  </div>
+
+  <!-- Portfolio -->
+  <div class="section">
+    <div class="section-title">My Portfolio</div>
+    <div id="portfolio"></div>
+  </div>
+
+  <!-- Trades -->
+  <div class="section" id="trades-section" style="display:none">
+    <div class="section-title">Today's Trades</div>
+    <table id="trades"></table>
+  </div>
+
+  <!-- Top Gainers -->
+  <div class="section">
+    <div class="section-title">Top Gainers</div>
+    <table id="gainers"></table>
+  </div>
+
+  <!-- Top Volume -->
+  <div class="section">
+    <div class="section-title">Top Volume</div>
+    <table id="volume"></table>
+  </div>
+
+  <!-- Foreign/Institution -->
+  <div class="section">
+    <div class="section-title">Foreign / Institutional Net Buy</div>
+    <table id="foreign"></table>
+  </div>
+
+  <div class="footer">Powered by KIS OpenAPI &middot; Goldenlabs</div>
+
+  <script>
+    const fmt = n => Number(n).toLocaleString('ko-KR');
+    const fmtVol = n => {
+      n = Number(n);
+      if (n >= 100000000) return (n / 100000000).toFixed(1) + '억';
+      if (n >= 10000) return (n / 10000).toFixed(0) + '만';
+      return fmt(n);
+    };
+    const cls = rate => Number(rate) > 0 ? 'up' : Number(rate) < 0 ? 'down' : 'flat';
+    const sign = rate => Number(rate) > 0 ? '+' : '';
+
+    fetch('stock.json')
+      .then(r => r.json())
+      .then(d => render(d))
+      .catch(() => {
+        document.getElementById('updated').textContent = 'No data available';
+      });
+
+    function render(d) {
+      document.getElementById('title').textContent = `📊 Stock Report`;
+      document.getElementById('updated').textContent = d.updated_at;
+
+      // Market
+      const mkt = document.getElementById('market');
+      for (const [name, info] of Object.entries(d.market || {})) {
+        const r = Number(info.change_rate);
+        mkt.innerHTML += `
+          <div class="market-card">
+            <div class="market-name">${name}</div>
+            <div class="market-index">${Number(info.index).toLocaleString('ko-KR', {maximumFractionDigits:2})}</div>
+            <div class="market-change ${cls(r)}">${sign(r)}${r}% (${sign(info.change)}${fmt(info.change)})</div>
+          </div>`;
+      }
+
+      // Portfolio
+      const pf = document.getElementById('portfolio');
+      if (d.portfolio && d.portfolio.stocks && d.portfolio.stocks.length > 0) {
+        d.portfolio.stocks.forEach(s => {
+          pf.innerHTML += `
+            <div class="portfolio-card">
+              <div class="portfolio-name">${s.name}</div>
+              <div class="portfolio-detail">${fmt(s.qty)}주 · 평균 ${fmt(Math.round(s.avg_price))}원 · 현재 ${fmt(s.cur_price)}원</div>
+              <div class="portfolio-pnl ${cls(s.pnl_rate)}">${sign(s.pnl_rate)}${s.pnl_rate}% (${sign(s.pnl_amt)}${fmt(s.pnl_amt)}원)</div>
+            </div>`;
+        });
+        if (d.portfolio.summary) {
+          const sm = d.portfolio.summary;
+          pf.innerHTML += `
+            <div class="summary-card">
+              <div class="summary-total">${fmt(sm.total_eval)}원</div>
+              <div class="summary-label">총 평가금액</div>
+              <div class="portfolio-pnl ${cls(sm.total_pnl)}" style="margin-top:8px">${sign(sm.total_pnl)}${fmt(sm.total_pnl)}원</div>
+              <div class="summary-label">평가손익</div>
+            </div>`;
+        }
+      } else {
+        pf.innerHTML = '<div class="no-data">보유종목 없음</div>';
+      }
+
+      // Trades
+      if (d.trades && d.trades.length > 0) {
+        document.getElementById('trades-section').style.display = '';
+        const tb = document.getElementById('trades');
+        tb.innerHTML = '<tr><th>종목</th><th>구분</th><th style="text-align:right">수량</th><th style="text-align:right">단가</th></tr>';
+        d.trades.forEach(t => {
+          tb.innerHTML += `<tr><td>${t.name}</td><td>${t.side}</td><td class="num">${fmt(t.qty)}</td><td class="num">${fmt(t.price)}원</td></tr>`;
+        });
+      }
+
+      // Top Gainers
+      renderRank('gainers', d.top_gainers, true);
+
+      // Top Volume
+      renderRank('volume', d.top_volume, false);
+
+      // Foreign/Institution
+      const ft = document.getElementById('foreign');
+      ft.innerHTML = '<tr><th></th><th>종목</th><th style="text-align:right">외인</th><th style="text-align:right">기관</th></tr>';
+      (d.foreign_institution || []).forEach((item, i) => {
+        ft.innerHTML += `<tr>
+          <td class="rank-num">${i + 1}</td>
+          <td>${item.name}</td>
+          <td class="num"><span class="badge-foreign">${sign(item.foreign_net)}${fmtVol(item.foreign_net)}</span></td>
+          <td class="num"><span class="badge-inst">${sign(item.institution_net)}${fmtVol(item.institution_net)}</span></td>
+        </tr>`;
+      });
+    }
+
+    function renderRank(id, items, showRate) {
+      const tb = document.getElementById(id);
+      tb.innerHTML = '<tr><th></th><th>종목</th><th style="text-align:right">가격</th><th style="text-align:right">' + (showRate ? '등락률' : '거래량') + '</th></tr>';
+      (items || []).forEach((item, i) => {
+        const r = Number(item.change_rate);
+        tb.innerHTML += `<tr>
+          <td class="rank-num">${i + 1}</td>
+          <td>${item.name}</td>
+          <td class="num">${fmt(item.price)}원</td>
+          <td class="num ${cls(r)}">${showRate ? sign(r) + r + '%' : fmtVol(item.volume)}</td>
+        </tr>`;
+      });
+    }
+  </script>
+</body>
+</html>

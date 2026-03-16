@@ -1,0 +1,265 @@
+{
+  "source": "한국투자증권 OpenAPI",
+  "updated_at": "2026-03-16 15:17",
+  "market": {
+    "KOSPI": {
+      "index": "5556.87",
+      "change": "69.63",
+      "change_rate": "1.27"
+    },
+    "KOSDAQ": {
+      "index": "1139.70",
+      "change": "-13.26",
+      "change_rate": "-1.15"
+    }
+  },
+  "portfolio": {
+    "stocks": [
+      {
+        "code": "0080G0",
+        "name": "KODEX 방산TOP10",
+        "qty": 1034,
+        "avg_price": 14631.2186,
+        "cur_price": 14480,
+        "pnl_rate": -1.03,
+        "pnl_amt": -156359,
+        "eval_amt": 14972320
+      },
+      {
+        "code": "461030",
+        "name": "아이엠비디엑스",
+        "qty": 1,
+        "avg_price": 13700.0,
+        "cur_price": 6760,
+        "pnl_rate": -50.65,
+        "pnl_amt": -6940,
+        "eval_amt": 6760
+      }
+    ],
+    "summary": {
+      "total_eval": 15104388,
+      "total_pnl": -163299,
+      "total_purchase": 15142380
+    }
+  },
+  "trades": [
+    {
+      "name": "KODEX 방산TOP10",
+      "side": "현금매수",
+      "qty": "534",
+      "price": "14520"
+    },
+    {
+      "name": "KODEX 방산TOP10",
+      "side": "현금매수",
+      "qty": "500",
+      "price": "14750"
+    }
+  ],
+  "top_gainers": [
+    {
+      "name": "에이비프로바이오",
+      "code": "",
+      "price": 1859,
+      "change_rate": "30.00",
+      "volume": 1661322
+    },
+    {
+      "name": "센서뷰",
+      "code": "",
+      "price": 4485,
+      "change_rate": "22.54",
+      "volume": 45043541
+    },
+    {
+      "name": "SKAI",
+      "code": "",
+      "price": 5380,
+      "change_rate": "12.08",
+      "volume": 33012522
+    },
+    {
+      "name": "THE E&M",
+      "code": "",
+      "price": 2740,
+      "change_rate": "22.87",
+      "volume": 11145718
+    },
+    {
+      "name": "삼성 레버리지 WTI원유 선물 ETN",
+      "code": "",
+      "price": 3235,
+      "change_rate": "7.12",
+      "volume": 7740699
+    },
+    {
+      "name": "한투 블룸버그레버리지WTI원유선물 ETN B",
+      "code": "",
+      "price": 56770,
+      "change_rate": "6.57",
+      "volume": 147368
+    },
+    {
+      "name": "비투엔",
+      "code": "",
+      "price": 1178,
+      "change_rate": "11.76",
+      "volume": 8018068
+    },
+    {
+      "name": "오르비텍",
+      "code": "",
+      "price": 9920,
+      "change_rate": "16.98",
+      "volume": 17144714
+    },
+    {
+      "name": "미래에셋 레버리지 원유선물혼합 ETN(H)",
+      "code": "",
+      "price": 16100,
+      "change_rate": "6.83",
+      "volume": 136757
+    },
+    {
+      "name": "나무기술",
+      "code": "",
+      "price": 6390,
+      "change_rate": "29.88",
+      "volume": 14167691
+    }
+  ],
+  "top_volume": [
+    {
+      "name": "KODEX 200선물인버스2X",
+      "code": "252670",
+      "price": 274,
+      "change_rate": "-3.52",
+      "volume": 3391292788
+    },
+    {
+      "name": "KODEX 인버스",
+      "code": "114800",
+      "price": 1685,
+      "change_rate": "-1.52",
+      "volume": 252935740
+    },
+    {
+      "name": "흥아해운",
+      "code": "003280",
+      "price": 3035,
+      "change_rate": "29.98",
+      "volume": 222250418
+    },
+    {
+      "name": "대한해운",
+      "code": "005880",
+      "price": 2545,
+      "change_rate": "15.68",
+      "volume": 194986356
+    },
+    {
+      "name": "남선알미늄",
+      "code": "008350",
+      "price": 1730,
+      "change_rate": "14.87",
+      "volume": 139741115
+    },
+    {
+      "name": "KODEX 코스닥150선물인버스",
+      "code": "251340",
+      "price": 2060,
+      "change_rate": "1.23",
+      "volume": 53536567
+    },
+    {
+      "name": "빛과전자",
+      "code": "069540",
+      "price": 1694,
+      "change_rate": "19.63",
+      "volume": 51305575
+    },
+    {
+      "name": "폴라리스AI",
+      "code": "039980",
+      "price": 1944,
+      "change_rate": "-4.94",
+      "volume": 46015053
+    },
+    {
+      "name": "센서뷰",
+      "code": "321370",
+      "price": 4465,
+      "change_rate": "21.99",
+      "volume": 45047245
+    },
+    {
+      "name": "보성파워텍",
+      "code": "006910",
+      "price": 12050,
+      "change_rate": "3.70",
+      "volume": 40975625
+    }
+  ],
+  "foreign_institution": [
+    {
+      "name": "흥아해운",
+      "code": "003280",
+      "foreign_net": 1764000,
+      "institution_net": 0
+    },
+    {
+      "name": "비비안",
+      "code": "002070",
+      "foreign_net": 706000,
+      "institution_net": 0
+    },
+    {
+      "name": "SK하이닉스",
+      "code": "000660",
+      "foreign_net": 314000,
+      "institution_net": 80000
+    },
+    {
+      "name": "조일알미늄",
+      "code": "018470",
+      "foreign_net": 475000,
+      "institution_net": 0
+    },
+    {
+      "name": "누보",
+      "code": "332290",
+      "foreign_net": 479000,
+      "institution_net": 10000
+    },
+    {
+      "name": "한온시스템",
+      "code": "018880",
+      "foreign_net": 476000,
+      "institution_net": -24000
+    },
+    {
+      "name": "나무기술",
+      "code": "242040",
+      "foreign_net": 402000,
+      "institution_net": 0
+    },
+    {
+      "name": "플루토스",
+      "code": "019570",
+      "foreign_net": 367000,
+      "institution_net": 0
+    },
+    {
+      "name": "에이프로젠바이오로직스",
+      "code": "003060",
+      "foreign_net": 332000,
+      "institution_net": 0
+    },
+    {
+      "name": "빛과전자",
+      "code": "069540",
+      "foreign_net": 281000,
+      "institution_net": 0
+    }
+  ]
+}
