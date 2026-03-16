@@ -1,16 +1,16 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-03-16 15:17",
+  "updated_at": "2026-03-16 16:53",
   "market": {
     "KOSPI": {
-      "index": "5556.87",
-      "change": "69.63",
-      "change_rate": "1.27"
+      "index": "5549.85",
+      "change": "62.61",
+      "change_rate": "1.14"
     },
     "KOSDAQ": {
-      "index": "1139.70",
-      "change": "-13.26",
-      "change_rate": "-1.15"
+      "index": "1138.29",
+      "change": "-14.67",
+      "change_rate": "-1.27"
     }
   },
   "portfolio": {
@@ -20,10 +20,10 @@
         "name": "KODEX 방산TOP10",
         "qty": 1034,
         "avg_price": 14631.2186,
-        "cur_price": 14480,
-        "pnl_rate": -1.03,
-        "pnl_amt": -156359,
-        "eval_amt": 14972320
+        "cur_price": 14470,
+        "pnl_rate": -1.1,
+        "pnl_amt": -166699,
+        "eval_amt": 14961980
       },
       {
         "code": "461030",
@@ -37,8 +37,8 @@
       }
     ],
     "summary": {
-      "total_eval": 15104388,
-      "total_pnl": -163299,
+      "total_eval": 15094048,
+      "total_pnl": -173639,
       "total_purchase": 15142380
     }
   },
@@ -62,142 +62,142 @@
       "code": "",
       "price": 1859,
       "change_rate": "30.00",
-      "volume": 1661322
+      "volume": 1662832
     },
     {
       "name": "센서뷰",
       "code": "",
-      "price": 4485,
-      "change_rate": "22.54",
-      "volume": 45043541
+      "price": 4565,
+      "change_rate": "24.73",
+      "volume": 46052228
     },
     {
       "name": "SKAI",
       "code": "",
-      "price": 5380,
-      "change_rate": "12.08",
-      "volume": 33012522
+      "price": 5320,
+      "change_rate": "10.83",
+      "volume": 33819012
     },
     {
       "name": "THE E&M",
       "code": "",
-      "price": 2740,
-      "change_rate": "22.87",
-      "volume": 11145718
+      "price": 2730,
+      "change_rate": "22.42",
+      "volume": 11448873
     },
     {
       "name": "삼성 레버리지 WTI원유 선물 ETN",
       "code": "",
-      "price": 3235,
-      "change_rate": "7.12",
-      "volume": 7740699
+      "price": 3250,
+      "change_rate": "7.62",
+      "volume": 7877855
     },
     {
       "name": "한투 블룸버그레버리지WTI원유선물 ETN B",
       "code": "",
-      "price": 56770,
-      "change_rate": "6.57",
-      "volume": 147368
+      "price": 57100,
+      "change_rate": "7.19",
+      "volume": 147460
     },
     {
       "name": "비투엔",
       "code": "",
-      "price": 1178,
-      "change_rate": "11.76",
-      "volume": 8018068
+      "price": 1174,
+      "change_rate": "11.39",
+      "volume": 8079152
     },
     {
       "name": "오르비텍",
       "code": "",
-      "price": 9920,
-      "change_rate": "16.98",
-      "volume": 17144714
+      "price": 10000,
+      "change_rate": "17.92",
+      "volume": 17342532
     },
     {
       "name": "미래에셋 레버리지 원유선물혼합 ETN(H)",
       "code": "",
-      "price": 16100,
-      "change_rate": "6.83",
-      "volume": 136757
+      "price": 16200,
+      "change_rate": "7.50",
+      "volume": 137111
     },
     {
       "name": "나무기술",
       "code": "",
       "price": 6390,
       "change_rate": "29.88",
-      "volume": 14167691
+      "volume": 14204824
     }
   ],
   "top_volume": [
     {
       "name": "KODEX 200선물인버스2X",
       "code": "252670",
-      "price": 274,
-      "change_rate": "-3.52",
-      "volume": 3391292788
+      "price": 275,
+      "change_rate": "-3.17",
+      "volume": 3477899347
     },
     {
       "name": "KODEX 인버스",
       "code": "114800",
-      "price": 1685,
-      "change_rate": "-1.52",
-      "volume": 252935740
+      "price": 1686,
+      "change_rate": "-1.46",
+      "volume": 258127039
     },
     {
       "name": "흥아해운",
       "code": "003280",
       "price": 3035,
       "change_rate": "29.98",
-      "volume": 222250418
+      "volume": 222427886
     },
     {
       "name": "대한해운",
       "code": "005880",
-      "price": 2545,
-      "change_rate": "15.68",
-      "volume": 194986356
+      "price": 2515,
+      "change_rate": "14.32",
+      "volume": 197765524
     },
     {
       "name": "남선알미늄",
       "code": "008350",
-      "price": 1730,
-      "change_rate": "14.87",
-      "volume": 139741115
+      "price": 1715,
+      "change_rate": "13.88",
+      "volume": 140863342
     },
     {
       "name": "KODEX 코스닥150선물인버스",
       "code": "251340",
-      "price": 2060,
-      "change_rate": "1.23",
-      "volume": 53536567
+      "price": 2065,
+      "change_rate": "1.47",
+      "volume": 55003450
     },
     {
       "name": "빛과전자",
       "code": "069540",
-      "price": 1694,
-      "change_rate": "19.63",
-      "volume": 51305575
+      "price": 1678,
+      "change_rate": "18.50",
+      "volume": 51941229
     },
     {
       "name": "폴라리스AI",
       "code": "039980",
-      "price": 1944,
-      "change_rate": "-4.94",
-      "volume": 46015053
+      "price": 1936,
+      "change_rate": "-5.33",
+      "volume": 46630486
     },
     {
       "name": "센서뷰",
       "code": "321370",
-      "price": 4465,
-      "change_rate": "21.99",
-      "volume": 45047245
+      "price": 4565,
+      "change_rate": "24.73",
+      "volume": 46052228
     },
     {
       "name": "보성파워텍",
       "code": "006910",
-      "price": 12050,
-      "change_rate": "3.70",
-      "volume": 40975625
+      "price": 12090,
+      "change_rate": "4.04",
+      "volume": 41279428
     }
   ],
   "foreign_institution": [
