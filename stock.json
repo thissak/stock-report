@@ -1,6 +1,6 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-03-17 06:25",
+  "updated_at": "2026-03-17 06:37",
   "market": {
     "KOSPI": {
       "index": "5549.85",
@@ -107,5 +107,74 @@
   ],
   "top_gainers": [],
   "top_volume": [],
-  "foreign_institution": []
+  "foreign_institution": [],
+  "watchlist_us": [
+    {
+      "code": "AAPL",
+      "name": "Apple",
+      "excd": "NAS",
+      "price": 252.65,
+      "change": 2.53,
+      "change_rate": "+1.01",
+      "volume": 23850127,
+      "high": 0.0,
+      "low": 0.0,
+      "open": 0.0
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "excd": "NAS",
+      "price": 182.76,
+      "change": 2.51,
+      "change_rate": "+1.39",
+      "volume": 151314363,
+      "high": 0.0,
+      "low": 0.0,
+      "open": 0.0
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "excd": "NAS",
+      "price": 395.035,
+      "change": 3.835,
+      "change_rate": "+0.98",
+      "volume": 45026054,
+      "high": 0.0,
+      "low": 0.0,
+      "open": 0.0
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "excd": "NAS",
+      "price": 399.46,
+      "change": 3.91,
+      "change_rate": "+0.99",
+      "volume": 21881847,
+      "high": 0.0,
+      "low": 0.0,
+      "open": 0.0
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "excd": "NAS",
+      "price": 211.51,
+      "change": 3.84,
+      "change_rate": "+1.85",
+      "volume": 30325614,
+      "high": 0.0,
+      "low": 0.0,
+      "open": 0.0
+    }
+  ],
+  "portfolio_us": {
+    "stocks": [],
+    "summary": {
+      "total_eval": 0.0,
+      "total_pnl": 0.0
+    }
+  }
 }
