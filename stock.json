@@ -1,6 +1,6 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-03-19 16:00",
+  "updated_at": "2026-03-20 03:45",
   "market": {
     "KOSPI": {
       "index": "5763.22",
@@ -15,16 +15,6 @@
   },
   "portfolio": {
     "stocks": [
-      {
-        "code": "005930",
-        "name": "삼성전자",
-        "qty": 0,
-        "avg_price": 0.0,
-        "cur_price": 200500,
-        "pnl_rate": 0.0,
-        "pnl_amt": 0,
-        "eval_amt": 0
-      },
       {
         "code": "0080G0",
         "name": "KODEX 방산TOP10",
@@ -60,7 +50,7 @@
       "price": 200500,
       "change": -8000,
       "change_rate": "-3.84",
-      "volume": 18923499,
+      "volume": 19884483,
       "high": 205000,
       "low": 199600
     },
@@ -70,7 +60,7 @@
       "price": 1013000,
       "change": -43000,
       "change_rate": "-4.07",
-      "volume": 3306272,
+      "volume": 3347483,
       "high": 1043000,
       "low": 1003000
     },
@@ -80,7 +70,7 @@
       "price": 136300,
       "change": 4600,
       "change_rate": "3.49",
-      "volume": 2432777,
+      "volume": 2451040,
       "high": 144000,
       "low": 130000
     },
@@ -90,7 +80,7 @@
       "price": 14090,
       "change": -155,
       "change_rate": "-1.09",
-      "volume": 3251175,
+      "volume": 3254151,
       "high": 14515,
       "low": 13995
     },
@@ -100,7 +90,7 @@
       "price": 26650,
       "change": 75,
       "change_rate": "0.28",
-      "volume": 1553183,
+      "volume": 1555280,
       "high": 27045,
       "low": 25700
     },
@@ -128,49 +118,49 @@
       "code": "",
       "price": 10980,
       "change_rate": "10.69",
-      "volume": 14144002
+      "volume": 14202668
     },
     {
       "name": "THE E&M",
       "code": "",
       "price": 2835,
       "change_rate": "0.00",
-      "volume": 1106785
+      "volume": 1109450
     },
     {
       "name": "SKAI",
       "code": "",
       "price": 5010,
       "change_rate": "1.42",
-      "volume": 4790463
+      "volume": 4818836
     },
     {
       "name": "센서뷰",
       "code": "",
       "price": 4060,
       "change_rate": "1.37",
-      "volume": 12473550
+      "volume": 12556638
     },
     {
       "name": "알엔티엑스",
       "code": "",
       "price": 1397,
       "change_rate": "8.55",
-      "volume": 1591425
+      "volume": 1597512
     },
     {
       "name": "엠케이전자",
       "code": "",
       "price": 17710,
       "change_rate": "22.56",
-      "volume": 7290486
+      "volume": 7338254
     },
     {
       "name": "대우건설",
       "code": "",
       "price": 16170,
       "change_rate": "8.74",
-      "volume": 77126668
+      "volume": 77367679
     },
     {
       "name": "더코디",
@@ -184,7 +174,7 @@
       "code": "",
       "price": 6130,
       "change_rate": "1.32",
-      "volume": 665965
+      "volume": 673031
     }
   ],
   "top_volume": [
@@ -193,70 +183,70 @@
       "code": "252670",
       "price": 249,
       "change_rate": "6.87",
-      "volume": 3365056992
+      "volume": 3406346036
     },
     {
       "name": "SK증권",
       "code": "001510",
       "price": 2180,
       "change_rate": "15.96",
-      "volume": 362468287
+      "volume": 364447673
     },
     {
       "name": "KODEX 인버스",
       "code": "114800",
       "price": 1604,
       "change_rate": "3.08",
-      "volume": 319514693
+      "volume": 332647413
     },
     {
       "name": "신성이엔지",
       "code": "011930",
       "price": 3080,
       "change_rate": "3.01",
-      "volume": 101227571
+      "volume": 101639124
     },
     {
       "name": "대우건설",
       "code": "047040",
       "price": 16170,
       "change_rate": "8.74",
-      "volume": 77126668
+      "volume": 77367679
     },
     {
       "name": "휴림에이텍",
       "code": "078590",
       "price": 912,
       "change_rate": "0.00",
-      "volume": 75645820
-    },
-    {
-      "name": "진흥기업",
-      "code": "002780",
-      "price": 1045,
-      "change_rate": "29.98",
-      "volume": 66076371
+      "volume": 75816033
     },
     {
       "name": "삼성 인버스 2X WTI원유 선물 ETN",
       "code": "Q530036",
       "price": 31,
       "change_rate": "-3.12",
-      "volume": 65886875
+      "volume": 67273060
+    },
+    {
+      "name": "진흥기업",
+      "code": "002780",
+      "price": 1045,
+      "change_rate": "29.98",
+      "volume": 66098493
     },
     {
       "name": "빛과전자",
       "code": "069540",
       "price": 1687,
       "change_rate": "14.22",
-      "volume": 49781169
+      "volume": 50243984
     },
     {
       "name": "SH에너지화학",
       "code": "002360",
       "price": 444,
       "change_rate": "14.73",
-      "volume": 47699253
+      "volume": 47968825
     }
   ],
   "foreign_institution": [
@@ -326,10 +316,10 @@
       "code": "AAPL",
       "name": "Apple",
       "excd": "NAS",
-      "price": 249.94,
-      "change": 4.29,
-      "change_rate": "-1.69",
-      "volume": 35757874,
+      "price": 247.72,
+      "change": 2.22,
+      "change_rate": "-0.89",
+      "volume": 12303484,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -338,10 +328,10 @@
       "code": "NVDA",
       "name": "NVIDIA",
       "excd": "NAS",
-      "price": 180.4,
-      "change": 1.53,
-      "change_rate": "-0.84",
-      "volume": 156683136,
+      "price": 178.24,
+      "change": 2.16,
+      "change_rate": "-1.20",
+      "volume": 81698220,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -350,10 +340,10 @@
       "code": "TSLA",
       "name": "Tesla",
       "excd": "NAS",
-      "price": 392.78,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 380.2299,
+      "change": 12.5501,
+      "change_rate": "-3.20",
+      "volume": 36323257,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -362,10 +352,10 @@
       "code": "MSFT",
       "name": "Microsoft",
       "excd": "NAS",
-      "price": 391.79,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 387.78,
+      "change": 4.01,
+      "change_rate": "-1.02",
+      "volume": 10497195,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -374,10 +364,10 @@
       "code": "AMZN",
       "name": "Amazon",
       "excd": "NAS",
-      "price": 209.87,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 206.81,
+      "change": 3.06,
+      "change_rate": "-1.46",
+      "volume": 14324941,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
