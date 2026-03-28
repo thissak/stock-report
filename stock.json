@@ -1,6 +1,6 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-03-27 16:00",
+  "updated_at": "2026-03-28 16:00",
   "market": {
     "KOSPI": {
       "index": "5438.87",
@@ -40,7 +40,7 @@
       "price": 179700,
       "change": -400,
       "change_rate": "-0.22",
-      "volume": 29113466,
+      "volume": 29138966,
       "high": 181700,
       "low": 172000
     },
@@ -50,7 +50,7 @@
       "price": 922000,
       "change": -11000,
       "change_rate": "-1.18",
-      "volume": 4520842,
+      "volume": 4520942,
       "high": 934000,
       "low": 880000
     },
@@ -60,7 +60,7 @@
       "price": 123200,
       "change": -5400,
       "change_rate": "-4.20",
-      "volume": 431186,
+      "volume": 436722,
       "high": 133500,
       "low": 121200
     },
@@ -70,7 +70,7 @@
       "price": 13685,
       "change": -225,
       "change_rate": "-1.62",
-      "volume": 4366432,
+      "volume": 4368907,
       "high": 13685,
       "low": 13130
     },
@@ -80,7 +80,7 @@
       "price": 25110,
       "change": -290,
       "change_rate": "-1.14",
-      "volume": 1856438,
+      "volume": 1857220,
       "high": 25630,
       "low": 23920
     },
@@ -101,70 +101,70 @@
       "code": "",
       "price": 7720,
       "change_rate": "29.97",
-      "volume": 27984711
+      "volume": 27989719
     },
     {
       "name": "오늘이엔엠",
       "code": "",
       "price": 4585,
       "change_rate": "14.34",
-      "volume": 2085988
+      "volume": 2094524
     },
     {
       "name": "이노인스트루먼트",
       "code": "",
       "price": 895,
       "change_rate": "5.05",
-      "volume": 57044400
+      "volume": 57567111
     },
     {
       "name": "빛과전자",
       "code": "",
       "price": 3140,
       "change_rate": "3.12",
-      "volume": 39146067
+      "volume": 39311155
     },
     {
       "name": "기가레인",
       "code": "",
       "price": 1079,
       "change_rate": "30.00",
-      "volume": 61216270
+      "volume": 61228272
     },
     {
       "name": "케이엠제약",
       "code": "",
       "price": 811,
       "change_rate": "29.97",
-      "volume": 2470921
+      "volume": 2472631
     },
     {
       "name": "THE E&M",
       "code": "",
       "price": 3320,
       "change_rate": "8.50",
-      "volume": 516994
+      "volume": 535172
     },
     {
       "name": "세림B&G",
       "code": "",
       "price": 2260,
       "change_rate": "4.63",
-      "volume": 32787258
+      "volume": 33003536
     },
     {
       "name": "쏘닉스",
       "code": "",
       "price": 4045,
       "change_rate": "12.99",
-      "volume": 7278178
+      "volume": 7311193
     },
     {
       "name": "우리넷",
       "code": "",
       "price": 13790,
       "change_rate": "7.23",
-      "volume": 15986919
+      "volume": 16031910
     }
   ],
   "top_volume": [
@@ -173,70 +173,70 @@
       "code": "252670",
       "price": 278,
       "change_rate": "0.72",
-      "volume": 5550487366
+      "volume": 5616204416
     },
     {
       "name": "KODEX 인버스",
       "code": "114800",
       "price": 1703,
       "change_rate": "0.47",
-      "volume": 395138102
+      "volume": 401178993
     },
     {
       "name": "엔에이치스팩33호",
       "code": "0130H0",
       "price": 2660,
       "change_rate": "33.00",
-      "volume": 207340325
+      "volume": 208216639
     },
     {
       "name": "한국ANKOR유전",
       "code": "152550",
       "price": 296,
       "change_rate": "-3.90",
-      "volume": 159244843
+      "volume": 160094281
     },
     {
       "name": "대영포장",
       "code": "014160",
       "price": 1300,
       "change_rate": "-7.74",
-      "volume": 104410444
+      "volume": 104885874
     },
     {
       "name": "KODEX 2차전지산업레버리지",
       "code": "462330",
       "price": 1684,
       "change_rate": "4.40",
-      "volume": 81468198
+      "volume": 81726023
     },
     {
       "name": "KODEX 코스닥150선물인버스",
       "code": "251340",
       "price": 2035,
       "change_rate": "-0.49",
-      "volume": 73636014
+      "volume": 74859984
     },
     {
       "name": "에코플라스틱",
       "code": "038110",
       "price": 4085,
       "change_rate": "-3.43",
-      "volume": 69542105
+      "volume": 69834976
     },
     {
       "name": "기가레인",
       "code": "049080",
       "price": 1079,
       "change_rate": "30.00",
-      "volume": 61216270
+      "volume": 61228272
     },
     {
       "name": "TIGER 200선물인버스2X",
       "code": "252710",
       "price": 294,
       "change_rate": "0.34",
-      "volume": 59584879
+      "volume": 60105298
     }
   ],
   "foreign_institution": [
@@ -306,10 +306,10 @@
       "code": "AAPL",
       "name": "Apple",
       "excd": "NAS",
-      "price": 252.89,
-      "change": 0.27,
-      "change_rate": "+0.11",
-      "volume": 41796650,
+      "price": 248.8,
+      "change": 4.09,
+      "change_rate": "-1.62",
+      "volume": 47899998,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -318,10 +318,10 @@
       "code": "NVDA",
       "name": "NVIDIA",
       "excd": "NAS",
-      "price": 171.24,
-      "change": 7.44,
-      "change_rate": "-4.16",
-      "volume": 186152232,
+      "price": 167.52,
+      "change": 3.72,
+      "change_rate": "-2.17",
+      "volume": 196212684,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -330,10 +330,10 @@
       "code": "TSLA",
       "name": "Tesla",
       "excd": "NAS",
-      "price": 372.11,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 361.83,
+      "change": 10.28,
+      "change_rate": "-2.76",
+      "volume": 62065659,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -342,10 +342,10 @@
       "code": "MSFT",
       "name": "Microsoft",
       "excd": "NAS",
-      "price": 365.97,
-      "change": 5.07,
-      "change_rate": "-1.37",
-      "volume": 36836574,
+      "price": 356.77,
+      "change": 9.2,
+      "change_rate": "-2.51",
+      "volume": 37883400,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -354,10 +354,10 @@
       "code": "AMZN",
       "name": "Amazon",
       "excd": "NAS",
-      "price": 207.54,
-      "change": 4.17,
-      "change_rate": "-1.97",
-      "volume": 46745978,
+      "price": 199.34,
+      "change": 8.2,
+      "change_rate": "-3.95",
+      "volume": 56009763,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
