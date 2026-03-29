@@ -1,6 +1,6 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-03-29 09:14",
+  "updated_at": "2026-03-29 16:00",
   "market": {
     "KOSPI": {
       "index": "5438.87",
@@ -43,6 +43,16 @@
       "volume": 29138966,
       "high": 181700,
       "low": 172000
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "price": 922000,
+      "change": -11000,
+      "change_rate": "-1.18",
+      "volume": 4520942,
+      "high": 934000,
+      "low": 880000
     },
     {
       "code": "322000",
