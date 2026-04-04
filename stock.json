@@ -1,6 +1,6 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-04-03 16:00",
+  "updated_at": "2026-04-04 16:00",
   "market": {
     "KOSPI": {
       "index": "5377.30",
@@ -82,50 +82,7 @@
       "total_purchase": 3584200
     }
   },
-  "trades": [
-    {
-      "name": "RF시스템즈",
-      "side": "현금매도",
-      "qty": "300",
-      "price": "12156"
-    },
-    {
-      "name": "녹십자웰빙",
-      "side": "현금매도",
-      "qty": "400",
-      "price": "14720"
-    },
-    {
-      "name": "펄어비스",
-      "side": "현금매수",
-      "qty": "10",
-      "price": "63200"
-    },
-    {
-      "name": "대한광통신",
-      "side": "매도정정*",
-      "qty": "100",
-      "price": "12210"
-    },
-    {
-      "name": "펄어비스",
-      "side": "현금매수",
-      "qty": "30",
-      "price": "65600"
-    },
-    {
-      "name": "펄어비스",
-      "side": "현금매도",
-      "qty": "15",
-      "price": "66100"
-    },
-    {
-      "name": "대한광통신",
-      "side": "현금매수",
-      "qty": "100",
-      "price": "11710"
-    }
-  ],
+  "trades": [],
   "watchlist": [
     {
       "code": "005930",
@@ -153,7 +110,7 @@
       "price": 191100,
       "change": 44100,
       "change_rate": "30.00",
-      "volume": 3335510,
+      "volume": 3337733,
       "high": 191100,
       "low": 143000
     },
@@ -163,7 +120,7 @@
       "price": 14650,
       "change": 600,
       "change_rate": "4.27",
-      "volume": 8051408,
+      "volume": 8054371,
       "high": 14910,
       "low": 14115
     },
@@ -173,7 +130,7 @@
       "price": 23765,
       "change": 765,
       "change_rate": "3.33",
-      "volume": 1050000,
+      "volume": 1050180,
       "high": 23950,
       "low": 23090
     },
@@ -194,70 +151,70 @@
       "code": "",
       "price": 7700,
       "change_rate": "4.05",
-      "volume": 20714408
+      "volume": 20818290
     },
     {
       "name": "계양전기우",
       "code": "",
       "price": 11730,
       "change_rate": "29.90",
-      "volume": 3312927
+      "volume": 3314860
     },
     {
       "name": "피노",
       "code": "",
       "price": 10240,
       "change_rate": "9.52",
-      "volume": 11075218
+      "volume": 11104904
     },
     {
       "name": "광전자",
       "code": "",
       "price": 4455,
       "change_rate": "29.88",
-      "volume": 25957853
+      "volume": 25962798
     },
     {
       "name": "인스코비",
       "code": "",
       "price": 440,
       "change_rate": "1.15",
-      "volume": 29492379
+      "volume": 29564673
     },
     {
       "name": "CS",
       "code": "",
       "price": 1440,
       "change_rate": "29.96",
-      "volume": 2608840
+      "volume": 2609585
     },
     {
       "name": "SK증권우",
       "code": "",
       "price": 5950,
       "change_rate": "1.71",
-      "volume": 1699987
+      "volume": 1710894
     },
     {
       "name": "빛과전자",
       "code": "",
       "price": 3250,
       "change_rate": "2.04",
-      "volume": 23876254
+      "volume": 24096498
     },
     {
       "name": "대한광통신",
       "code": "",
       "price": 12740,
       "change_rate": "25.89",
-      "volume": 75787389
+      "volume": 76311778
     },
     {
       "name": "이엠앤아이",
       "code": "",
       "price": 1376,
       "change_rate": "27.41",
-      "volume": 4547701
+      "volume": 4610298
     }
   ],
   "top_volume": [
@@ -266,70 +223,70 @@
       "code": "252670",
       "price": 271,
       "change_rate": "-6.23",
-      "volume": 4802712120
+      "volume": 4846251826
     },
     {
       "name": "KODEX 인버스",
       "code": "114800",
       "price": 1695,
       "change_rate": "-3.09",
-      "volume": 310538720
+      "volume": 313317588
     },
     {
       "name": "한국ANKOR유전",
       "code": "152550",
       "price": 295,
       "change_rate": "-2.96",
-      "volume": 216914179
+      "volume": 218031739
     },
     {
       "name": "신성이엔지",
       "code": "011930",
       "price": 3445,
       "change_rate": "25.27",
-      "volume": 192639915
+      "volume": 193573653
     },
     {
       "name": "흥아해운",
       "code": "003280",
       "price": 4090,
       "change_rate": "-8.50",
-      "volume": 124031916
+      "volume": 124803310
     },
     {
       "name": "삼성 인버스 2X WTI원유 선물 ETN",
       "code": "Q530036",
       "price": 25,
       "change_rate": "4.17",
-      "volume": 83025637
+      "volume": 85108100
     },
     {
       "name": "대한광통신",
       "code": "010170",
       "price": 12740,
       "change_rate": "25.89",
-      "volume": 75787389
+      "volume": 76311778
     },
     {
       "name": "KODEX 2차전지산업레버리지",
       "code": "462330",
       "price": 1699,
       "change_rate": "-0.47",
-      "volume": 71684938
+      "volume": 72015256
     },
     {
       "name": "KODEX 코스닥150선물인버스",
       "code": "251340",
       "price": 2205,
       "change_rate": "-0.23",
-      "volume": 59438390
+      "volume": 60284018
     },
     {
       "name": "남선알미늄",
       "code": "008350",
       "price": 1805,
       "change_rate": "1.40",
-      "volume": 50696935
+      "volume": 51211225
     }
   ],
   "foreign_institution": [
