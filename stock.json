@@ -1,16 +1,16 @@
 {
   "source": "한국투자증권 OpenAPI",
-  "updated_at": "2026-04-20 16:00",
+  "updated_at": "2026-04-21 16:00",
   "market": {
     "KOSPI": {
-      "index": "6219.09",
-      "change": "27.17",
-      "change_rate": "0.44"
+      "index": "6388.47",
+      "change": "169.38",
+      "change_rate": "2.72"
     },
     "KOSDAQ": {
-      "index": "1174.85",
-      "change": "4.81",
-      "change_rate": "0.41"
+      "index": "1179.03",
+      "change": "4.18",
+      "change_rate": "0.36"
     }
   },
   "portfolio": {
@@ -20,45 +20,45 @@
         "name": "KODEX 방산TOP10",
         "qty": 234,
         "avg_price": 14790.0,
-        "cur_price": 14980,
-        "pnl_rate": 1.28,
-        "pnl_amt": 44460,
-        "eval_amt": 3505320
+        "cur_price": 14870,
+        "pnl_rate": 0.54,
+        "pnl_amt": 18720,
+        "eval_amt": 3479580
       },
       {
         "code": "234690",
         "name": "녹십자웰빙",
         "qty": 200,
         "avg_price": 14100.0,
-        "cur_price": 15100,
-        "pnl_rate": 7.09,
-        "pnl_amt": 200000,
-        "eval_amt": 3020000
+        "cur_price": 14790,
+        "pnl_rate": 4.89,
+        "pnl_amt": 138000,
+        "eval_amt": 2958000
       },
       {
         "code": "263750",
         "name": "펄어비스",
         "qty": 140,
         "avg_price": 61285.7143,
-        "cur_price": 54000,
-        "pnl_rate": -11.88,
-        "pnl_amt": -1020000,
-        "eval_amt": 7560000
+        "cur_price": 54400,
+        "pnl_rate": -11.23,
+        "pnl_amt": -964000,
+        "eval_amt": 7616000
       },
       {
         "code": "461030",
         "name": "아이엠비디엑스",
         "qty": 1,
         "avg_price": 13700.0,
-        "cur_price": 7420,
-        "pnl_rate": -45.83,
-        "pnl_amt": -6280,
-        "eval_amt": 7420
+        "cur_price": 7350,
+        "pnl_rate": -46.35,
+        "pnl_amt": -6350,
+        "eval_amt": 7350
       }
     ],
     "summary": {
-      "total_eval": 14175172,
-      "total_pnl": -781820,
+      "total_eval": 14143362,
+      "total_pnl": -813630,
       "total_purchase": 14874560
     }
   },
@@ -67,268 +67,268 @@
     {
       "code": "005930",
       "name": "삼성전자",
-      "price": 214500,
-      "change": -1500,
-      "change_rate": "-0.69",
-      "volume": 16445128,
-      "high": 219000,
-      "low": 213000
+      "price": 219000,
+      "change": 4500,
+      "change_rate": "2.10",
+      "volume": 16705245,
+      "high": 220000,
+      "low": 216000
     },
     {
       "code": "000660",
       "name": "SK하이닉스",
-      "price": 1166000,
-      "change": 38000,
-      "change_rate": "3.37",
-      "volume": 3004146,
-      "high": 1175000,
-      "low": 1141000
+      "price": 1224000,
+      "change": 58000,
+      "change_rate": "4.97",
+      "volume": 3135003,
+      "high": 1228000,
+      "low": 1193000
     },
     {
       "code": "322000",
       "name": "HD현대에너지솔루션",
-      "price": 162900,
-      "change": 2500,
-      "change_rate": "1.56",
-      "volume": 531457,
-      "high": 169300,
-      "low": 159300
+      "price": 170000,
+      "change": 7100,
+      "change_rate": "4.36",
+      "volume": 898683,
+      "high": 174100,
+      "low": 160200
     },
     {
       "code": "0080G0",
       "name": "KODEX 방산TOP10",
-      "price": 14980,
-      "change": 130,
-      "change_rate": "0.88",
-      "volume": 5134127,
-      "high": 15090,
-      "low": 14820
+      "price": 14870,
+      "change": -110,
+      "change_rate": "-0.73",
+      "volume": 4410922,
+      "high": 15000,
+      "low": 14800
     },
     {
       "code": "471990",
       "name": "KODEX AI반도체핵심장비",
-      "price": 27585,
-      "change": 750,
-      "change_rate": "2.79",
-      "volume": 882705,
-      "high": 27885,
-      "low": 26920
+      "price": 28035,
+      "change": 450,
+      "change_rate": "1.63",
+      "volume": 778739,
+      "high": 28080,
+      "low": 27620
     },
     {
       "code": "263750",
       "name": "펄어비스",
-      "price": 54000,
-      "change": -100,
-      "change_rate": "-0.18",
-      "volume": 482700,
-      "high": 54900,
-      "low": 53600
+      "price": 54400,
+      "change": 400,
+      "change_rate": "0.74",
+      "volume": 617819,
+      "high": 55100,
+      "low": 53300
     }
   ],
   "top_gainers": [
     {
       "name": "파인텍",
       "code": "",
-      "price": 1573,
-      "change_rate": "30.00",
-      "volume": 5388516
-    },
-    {
-      "name": "케이씨에스",
-      "code": "",
-      "price": 23100,
-      "change_rate": "29.92",
-      "volume": 1757115
-    },
-    {
-      "name": "드림시큐리티",
-      "code": "",
-      "price": 3880,
-      "change_rate": "29.98",
-      "volume": 60035375
-    },
-    {
-      "name": "엑스게이트",
-      "code": "",
-      "price": 16440,
-      "change_rate": "9.67",
-      "volume": 25921751
-    },
-    {
-      "name": "에이치엠넥스",
-      "code": "",
-      "price": 7960,
-      "change_rate": "3.38",
-      "volume": 5062634
-    },
-    {
-      "name": "루멘스",
-      "code": "",
-      "price": 1589,
-      "change_rate": "3.79",
-      "volume": 25446385
-    },
-    {
-      "name": "퍼스텍",
-      "code": "",
-      "price": 15700,
-      "change_rate": "16.47",
-      "volume": 27478009
-    },
-    {
-      "name": "빛과전자",
-      "code": "",
-      "price": 6520,
-      "change_rate": "11.26",
-      "volume": 55215076
-    },
-    {
-      "name": "진원생명과학",
-      "code": "",
-      "price": 1322,
-      "change_rate": "29.99",
-      "volume": 29841766
+      "price": 2040,
+      "change_rate": "29.69",
+      "volume": 75209385
     },
     {
       "name": "SGA솔루션즈",
       "code": "",
-      "price": 1046,
-      "change_rate": "29.94",
-      "volume": 17768495
+      "price": 1168,
+      "change_rate": "11.66",
+      "volume": 71351691
+    },
+    {
+      "name": "태영건설우",
+      "code": "",
+      "price": 12280,
+      "change_rate": "29.95",
+      "volume": 808817
+    },
+    {
+      "name": "진원생명과학",
+      "code": "",
+      "price": 1346,
+      "change_rate": "1.82",
+      "volume": 39153075
+    },
+    {
+      "name": "씨이랩",
+      "code": "",
+      "price": 8950,
+      "change_rate": "29.90",
+      "volume": 1989102
+    },
+    {
+      "name": "애머릿지",
+      "code": "",
+      "price": 508,
+      "change_rate": "29.92",
+      "volume": 1577860
+    },
+    {
+      "name": "주성엔지니어링",
+      "code": "",
+      "price": 118900,
+      "change_rate": "29.95",
+      "volume": 10101846
+    },
+    {
+      "name": "저스템",
+      "code": "",
+      "price": 11020,
+      "change_rate": "7.62",
+      "volume": 3795466
+    },
+    {
+      "name": "대우건설",
+      "code": "",
+      "price": 32850,
+      "change_rate": "16.90",
+      "volume": 94197868
+    },
+    {
+      "name": "조이웍스앤코",
+      "code": "",
+      "price": 1630,
+      "change_rate": "5.16",
+      "volume": 6845558
     }
   ],
   "top_volume": [
     {
       "name": "KODEX 200선물인버스2X",
       "code": "252670",
-      "price": 191,
-      "change_rate": "-1.04",
-      "volume": 2335138980
+      "price": 181,
+      "change_rate": "-5.24",
+      "volume": 2639924673
     },
     {
       "name": "KODEX 인버스",
       "code": "114800",
-      "price": 1432,
-      "change_rate": "-0.49",
-      "volume": 211737958
+      "price": 1394,
+      "change_rate": "-2.65",
+      "volume": 260488168
+    },
+    {
+      "name": "KODEX 2차전지산업레버리지",
+      "code": "462330",
+      "price": 2570,
+      "change_rate": "19.26",
+      "volume": 109750954
+    },
+    {
+      "name": "대우건설",
+      "code": "047040",
+      "price": 32850,
+      "change_rate": "16.90",
+      "volume": 94197868
     },
     {
       "name": "삼성 인버스 2X WTI원유 선물 ETN",
       "code": "Q530036",
       "price": 22,
-      "change_rate": "-8.33",
-      "volume": 88325425
+      "change_rate": "0.00",
+      "volume": 79882573
     },
     {
-      "name": "흥아해운",
-      "code": "003280",
-      "price": 3320,
-      "change_rate": "8.14",
-      "volume": 72374881
+      "name": "에스아이리소스",
+      "code": "065420",
+      "price": 291,
+      "change_rate": "-2.68",
+      "volume": 77834666
+    },
+    {
+      "name": "국일제지",
+      "code": "078130",
+      "price": 470,
+      "change_rate": "29.83",
+      "volume": 75772595
+    },
+    {
+      "name": "파인텍",
+      "code": "131760",
+      "price": 2040,
+      "change_rate": "29.69",
+      "volume": 75209385
     },
     {
       "name": "드림시큐리티",
       "code": "203650",
-      "price": 3880,
-      "change_rate": "29.98",
-      "volume": 60035375
+      "price": 3800,
+      "change_rate": "-2.06",
+      "volume": 74254607
     },
     {
-      "name": "빛과전자",
-      "code": "069540",
-      "price": 6520,
-      "change_rate": "11.26",
-      "volume": 55215076
-    },
-    {
-      "name": "KODEX 2차전지산업레버리지",
-      "code": "462330",
-      "price": 2155,
-      "change_rate": "3.86",
-      "volume": 50505678
-    },
-    {
-      "name": "랩지노믹스",
-      "code": "084650",
-      "price": 1657,
-      "change_rate": "-8.10",
-      "volume": 41523932
-    },
-    {
-      "name": "와이제이링크",
-      "code": "209640",
-      "price": 6130,
-      "change_rate": "3.55",
-      "volume": 39196188
-    },
-    {
-      "name": "기가레인",
-      "code": "049080",
-      "price": 2640,
-      "change_rate": "1.54",
-      "volume": 34421694
+      "name": "SGA솔루션즈",
+      "code": "184230",
+      "price": 1168,
+      "change_rate": "11.66",
+      "volume": 71351691
     }
   ],
   "foreign_institution": [
     {
-      "name": "에스아이리소스",
-      "code": "065420",
-      "foreign_net": 2260000,
+      "name": "중앙첨단소재",
+      "code": "051980",
+      "foreign_net": 2051000,
       "institution_net": 0
     },
     {
-      "name": "팬오션",
-      "code": "028670",
-      "foreign_net": 1082000,
-      "institution_net": 165000
+      "name": "대우건설",
+      "code": "047040",
+      "foreign_net": 1940000,
+      "institution_net": 58000
     },
     {
-      "name": "이수페타시스",
-      "code": "007660",
-      "foreign_net": 1097000,
-      "institution_net": 3000
+      "name": "삼성전자",
+      "code": "005930",
+      "foreign_net": 1237000,
+      "institution_net": 300000
     },
     {
-      "name": "LG디스플레이",
-      "code": "034220",
-      "foreign_net": 838000,
-      "institution_net": 74000
+      "name": "국일제지",
+      "code": "078130",
+      "foreign_net": 1208000,
+      "institution_net": -74000
     },
     {
-      "name": "SK하이닉스",
-      "code": "000660",
-      "foreign_net": 683000,
-      "institution_net": 106000
+      "name": "삼성중공업",
+      "code": "010140",
+      "foreign_net": 936000,
+      "institution_net": 173000
+    },
+    {
+      "name": "한온시스템",
+      "code": "018880",
+      "foreign_net": 1188000,
+      "institution_net": -68000
+    },
+    {
+      "name": "GS건설",
+      "code": "006360",
+      "foreign_net": 836000,
+      "institution_net": 169000
+    },
+    {
+      "name": "남선알미늄",
+      "code": "008350",
+      "foreign_net": 962000,
+      "institution_net": 0
     },
     {
       "name": "두산에너빌리티",
       "code": "034020",
-      "foreign_net": 666000,
-      "institution_net": 59000
+      "foreign_net": 607000,
+      "institution_net": 220000
     },
     {
-      "name": "주성엔지니어링",
-      "code": "036930",
-      "foreign_net": 512000,
-      "institution_net": 97000
-    },
-    {
-      "name": "폴라리스오피스",
-      "code": "041020",
-      "foreign_net": 625000,
-      "institution_net": 0
-    },
-    {
-      "name": "무림P&P",
-      "code": "009580",
-      "foreign_net": 552000,
-      "institution_net": 0
-    },
-    {
-      "name": "하나마이크론",
-      "code": "067310",
-      "foreign_net": 340000,
-      "institution_net": 61000
+      "name": "삼성전자우",
+      "code": "005935",
+      "foreign_net": 708000,
+      "institution_net": 45000
     }
   ],
   "watchlist_us": [
@@ -336,10 +336,10 @@
       "code": "AAPL",
       "name": "Apple",
       "excd": "NAS",
-      "price": 270.23,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 273.05,
+      "change": 2.82,
+      "change_rate": "+1.04",
+      "volume": 36590169,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -348,10 +348,10 @@
       "code": "NVDA",
       "name": "NVIDIA",
       "excd": "NAS",
-      "price": 201.68,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 202.06,
+      "change": 0.38,
+      "change_rate": "+0.19",
+      "volume": 119381388,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -360,10 +360,10 @@
       "code": "TSLA",
       "name": "Tesla",
       "excd": "NAS",
-      "price": 400.62,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 392.5,
+      "change": 8.12,
+      "change_rate": "-2.03",
+      "volume": 64603868,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -372,10 +372,10 @@
       "code": "MSFT",
       "name": "Microsoft",
       "excd": "NAS",
-      "price": 422.79,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 418.07,
+      "change": 4.72,
+      "change_rate": "-1.12",
+      "volume": 27582237,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
@@ -384,10 +384,10 @@
       "code": "AMZN",
       "name": "Amazon",
       "excd": "NAS",
-      "price": 250.56,
-      "change": 0.0,
-      "change_rate": " 0.00",
-      "volume": 0,
+      "price": 248.28,
+      "change": 2.28,
+      "change_rate": "-0.91",
+      "volume": 39463106,
       "high": 0.0,
       "low": 0.0,
       "open": 0.0
